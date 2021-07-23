@@ -2,18 +2,18 @@ import React, { useState, useEffect } from 'react'
 import './Style.css'
 
 //Getting data from local storage
-const getData = () => {
-    const list = localStorage.getItem("Items");
-    if (list) {
-        return JSON.parse(list);
-    }
-}
+// const getData = () => {
+//     const list = localStorage.getItem("Items");
+//     if (list && Array.isArray(list)) {
+//         return JSON.parse(list);
+//     }
+// }
 
 const Main = () => {
 
 
     const [input, setInput] = useState("");
-    const [items, setItems] = useState(getData());
+    const [items, setItems] = useState([]);
     const [editItems, setEditItems] = useState("");
     const [toggleButton, setToggleButton] = useState(false);
 
@@ -72,10 +72,10 @@ const Main = () => {
         setItems(updatedItem);
     }
 
-    //   Adding Items to LocalStorage 
-    useEffect(() => {
-        localStorage.setItem("Items", JSON.stringify(items))
-    }, [items])
+    // //   Adding Items to LocalStorage 
+    // useEffect(() => {
+    //     localStorage.setItem("Items", JSON.stringify(items))
+    // }, [items])
 
     return (
         <>
