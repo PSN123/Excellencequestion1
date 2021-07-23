@@ -23,7 +23,7 @@ const Main = () => {
             alert("Plz fill data")
         } else if (input && toggleButton) {
             setItems(
-                items.map((currentElement) => {
+                items?.map((currentElement) => {
                     if (currentElement.id === editItems) {
                         return { ...currentElement, name: input }
                     }
@@ -95,7 +95,7 @@ const Main = () => {
 
                     <div className="showItems">
                         {
-                            items.map((current) => {
+                            items?.map((current) => {
                                 return (
                                     <>
                                         <div className="eachItem" key={current.id}>
