@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PSN123/Excellencequestion1/static/css/main.aeac7240.chunk.css",
+    "main.js": "/PSN123/Excellencequestion1/static/js/main.040d8461.chunk.js",
+    "main.js.map": "/PSN123/Excellencequestion1/static/js/main.040d8461.chunk.js.map",
+    "runtime-main.js": "/PSN123/Excellencequestion1/static/js/runtime-main.28b3ffd5.js",
+    "runtime-main.js.map": "/PSN123/Excellencequestion1/static/js/runtime-main.28b3ffd5.js.map",
+    "static/js/2.38163d0a.chunk.js": "/PSN123/Excellencequestion1/static/js/2.38163d0a.chunk.js",
+    "static/js/2.38163d0a.chunk.js.map": "/PSN123/Excellencequestion1/static/js/2.38163d0a.chunk.js.map",
+    "static/js/3.8f0990e5.chunk.js": "/PSN123/Excellencequestion1/static/js/3.8f0990e5.chunk.js",
+    "static/js/3.8f0990e5.chunk.js.map": "/PSN123/Excellencequestion1/static/js/3.8f0990e5.chunk.js.map",
+    "index.html": "/PSN123/Excellencequestion1/index.html",
+    "static/css/main.aeac7240.chunk.css.map": "/PSN123/Excellencequestion1/static/css/main.aeac7240.chunk.css.map",
+    "static/js/2.38163d0a.chunk.js.LICENSE.txt": "/PSN123/Excellencequestion1/static/js/2.38163d0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28b3ffd5.js",
+    "static/js/2.38163d0a.chunk.js",
+    "static/css/main.aeac7240.chunk.css",
+    "static/js/main.040d8461.chunk.js"
+  ]
+}
